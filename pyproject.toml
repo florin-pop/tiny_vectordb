@@ -28,3 +28,9 @@ dependencies = [
     "pybind11",
     "ninja"
 ]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "numpy"
+]
